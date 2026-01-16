@@ -125,6 +125,7 @@ All screenshots are stored in the `/screenshots` folder.
 ![Network Scan](screenshots/network_scan.png)
 
 ---
+
 ## Challenges Faced and How I Overcame Them 
 ** VirtualBox network configuration issues**
 The Kali and Metasploitable machines initially could not communicate due to incorrect adapter settings. This was resolved by properly configuring NAT for internet access and a Host only adapter for the lab network, then verifying connectivity using ip addr, ip route, and ping.
